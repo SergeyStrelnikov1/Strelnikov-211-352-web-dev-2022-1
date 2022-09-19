@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;  
+}
+.header1 {
+    background-color: white;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.main-menu li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.main-menu a {
+    text-decoration: none;
+    color:white ;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+p  {
+    text-align: justify;
+}
+
+.footer {
+    background-color: dimgray;
+    color: white;
+    padding: 20px 0;
+}
+
+.avatar {
+    text-align: center;
+    height: 480px;
+    background-image: url(images/pict1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.avatar img {
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.contact-me-btn {
+    color: white;
+    border-color: white;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabletech {
+    margin-bottom: 10px;
+}
