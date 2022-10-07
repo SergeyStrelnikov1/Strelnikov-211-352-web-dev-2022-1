@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <title>Интернет-магазин</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex direction-column">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Соревнования</a></li>
+                    <li><a href="schedule.html">Запись на занятия</a></li>
+                    <li><a href="teachers.html">Наша команда</a></li>
+                    <li><a href="sport.html">Товары</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <a href="">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="schedule">
+        <h1>Запись на занятия</h1>
+        <form action="http://httpbin.org/post" enctype="multipart/form-data" method="post" class="form_sch">
+            <div>
+                <label for="fio">ФИО</label>
+                <input type="text" name="fio" id="fio" placeholder="Введите ФИО" required>
+            </div>
+            <div>
+                <label for="email">Адрес электронной почты</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <fieldset class="days">
+                <legend>Выберите удобные для вас дни</legend>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day1" id="day1">
+                    <label for="day1">Понедельник</label>
+                </div>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day2" id="day2">
+                    <label for="day2">Вторник</label>
+                </div>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day3" id="day3">
+                    <label for="day3">Среда</label>
+                </div>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day4" id="day4">
+                    <label for="day4">Четверг</label>
+                </div>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day5" id="day5">
+                    <label for="day5">Пятница</label>
+                </div>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day6" id="day6">
+                    <label for="day6">Суббота</label>
+                </div>
+                <div class="sch_day">
+                    <input type="checkbox" name="day" value="day7" id="day7">
+                    <label for="day7">Воскресенье</label>
+                </div>
+            </fieldset>
+            <div class="agree">
+                <input type="checkbox" name="agreement" id="agreement" value="true" required>
+                <label for="agreement">Согласен на обработкой данных</label>
+            </div>
+            <button type="submit">Отправить</button>
+
+        </form>
+        
+        <button class="scroll-to-top-btn">
+            &#9650;
+        </button>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2022 
+        </div>
+    </footer>
+
+</body>
+
+</html>

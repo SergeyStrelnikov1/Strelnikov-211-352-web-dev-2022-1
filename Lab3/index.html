@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <title>Интернет-магазин</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex direction-column">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Соревнования</a></li>
+                    <li><a href="schedule.html">Запись на занятия</a></li>
+                    <li><a href="teachers.html">Наша команда</a></li>
+                    <li><a href="sport.html">Товары</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <a href="">Вход</a>
+            </div>
+        </div>
+
+
+    </header>
+    <main class="container d-flex direction-column">
+        <aside class="sidebar">
+            <form>
+                <fieldset class="sidebar-section">
+                    <legend>Тематика</legend>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic1" id="topic1">
+                        <label for="topic1">Соревнования</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic2" id="topic2">
+                        <label for="topic2">Тренировки</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic3" id="topic3">
+                        <label for="topic3">Что-то другое</label>
+                    </div>
+                </fieldset>
+
+
+                <fieldset class="sidebar-section">
+                    <legend>Для кого</legend>
+                    <div>
+                        <input type="radio" name="group" value="group1" id="group1">
+                        <label for="group1">Учатник</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="group" value="group2" id="group2">
+                        <label for="group2">Зритель</label>
+                    </div>
+                   
+                </fieldset>
+
+                <button type="submit">Применить</button>
+
+
+            </form>
+
+        </aside>
+        <div class="page-content">
+            <h1 class="events">Мероприятия</h1>
+            <div class="events-list">
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/228.jpg" alt="event1">
+                    </div>
+                    <div class="product-details">
+                        <header>Enduro</header>
+                        <p class="information">Эндуро 
+                            гонка</p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="buy">Приобрести билет</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/229.jpeg" alt="event2">
+                    </div>
+                    <div class="product-details">
+                        <header>Stunt</header>
+                        <p class="information">Stunt Fest
+                        </p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="buy">Приобрести билет</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="product-image">
+                        <img src="Images/230.JPG" alt="event3">
+                    </div>
+                    <div class="product-details">
+                        <header>Motocross competition</header>
+                        <p class="information">Motocross competition on dirt bike</p>
+                        <div class="control">
+                            <button class="btn">
+                                <span class="buy">Приобрести билет</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </div>
+        <button class="scroll-to-top-btn">
+            &#9650;
+        </button>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2022 
+        </div>
+    </footer>
+
+</body>
+
+</html>
