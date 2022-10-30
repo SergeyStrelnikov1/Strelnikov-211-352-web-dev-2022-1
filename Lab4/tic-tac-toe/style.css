@@ -1,0 +1,63 @@
+ 
+body, main {
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+#board {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 70px;
+    font-weight: bold;
+    box-sizing: border-box; 
+}
+
+.new-game-btn {
+    padding: 10px;
+    font-size:  20px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.msg {
+    width: 400px;
+    margin: 10px auto;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.success {
+    border-color: darkgreen;
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.danger {
+    border-color: rgb(112, 14, 14);
+    color: rgb(117, 6, 6);
+    background-color: lightcoral;
+}
